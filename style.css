@@ -113,3 +113,13 @@ td{
     font-weight: 600;
     color: hsl(14, 45%, 36%);
 }
+
+@media screen and (max-width:600px) {
+    body {
+        padding: 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
